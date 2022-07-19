@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+html {
+	background: rgb(245, 245, 249);
+}
+
+h1 {
+	font-family: cursive;
+	margin: 0;
+	padding: 20px 0;
+	background: rgb(46, 171, 176);
+	color: white;
+	border-bottom-right-radius: 12px;
+	text-shadow: 3px 3px 2px silver;
+	opacity: 0.7;
+}
+
+#grupobotao {
+	float: left;
+}
+
+.botao {
+	display:inline-block;
+	border: none;
+	margin: 0;
+	background: rgb(46, 171, 176);
+	width: 120px;
+	height: 90px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+
+.botao:hover {
+	background: rgb(46, 171, 206);
+	border-left:thick;
+	border-left-style: outset;
+	border-left-color: rgb(160, 160, 162);
+	border-bottom: thick;
+	border-bottom-style: outset;
+	border-bottom-color: rgb(160, 160, 162);
+	
+}
+
+.botaonovo {
+	border-top-right-radius: 12px;
+}
+
+.botaosair {
+	border-bottom-right-radius: 12px;
+}
+
+.dados {
+	float: right;
+	padding: 30px 30px;
+}
+
+.tabela {
+	float: right;
+	padding: 30px 30px;
+}

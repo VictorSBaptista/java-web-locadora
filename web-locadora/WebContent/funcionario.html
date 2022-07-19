@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/estilo2.css" rel="stylesheet">
+<script type="text/javascript" src="js/mascara.js"></script>
+<meta charset="ISO-8859-1">
+<title>Cadastro de Funcionários</title>
+</head>
+<body>
+
+	<div align="center">
+		<h1>CADASTRO<br>DE<br>FUNCIONÁRIOS</h1>
+		
+	</div>
+	<div id="grupobotao" align="center" >
+		<input type="button" class="botao botaonovo" value="Novo"><input type="button" class="botao" value="Alterar"><input type="button" class="botao" value="Excluir"><input type="button" class="botao botaosair" value="Sair"> <br><br>
+	</div>
+	
+	<div align="center" class="dados">
+		<h5>Dados Pessoais</h5>
+		Nome: <input type="text" size="38"> &nbsp&nbsp
+		Data de Nacimento: <input type="date" size="15"> <br><br>
+		Idade: <input type="text" size="1"> &nbsp&nbsp 
+		CPF: <input type="text" size="10" onkeyup="masc_cpf(this)"> &nbsp&nbsp 
+		RG: <input type="text" size="10" onkeyup="masc_rg(this)"> &nbsp&nbsp
+		Sexo: <input type="radio">Masculino &nbsp <input type="radio">Feminino<br><br>
+		Login: <input type="text" size="13"> &nbsp&nbsp
+		Senha: <input type="text" size="13"> &nbsp&nbsp
+		Perfil de Acesso: <input type="text" size="15"> <br><br>
+		<h5>Dados de Endereço</h5>
+		Tipo de Logradouro: <input type="text" size="15"> &nbsp&nbsp
+		Endereço: <input type="text" size="35"> <br><br>&nbsp&nbsp
+		Número: <input type="text" size="5"> &nbsp&nbsp
+		Complemento: <input type="text" size="15"> &nbsp&nbsp
+		Bairro: <input type="text" size="20"> <br><br>
+		CEP: &nbsp <input type="text" size="20" onkeyup="masc_cep(this)"> &nbsp&nbsp
+		UF: 
+		<select>
+			<option>Selecione um UF</option>
+		</select> &nbsp&nbsp
+		Cidade:
+		<select>
+			<option>Selecione uma Cidade</option>
+		</select> <br><br>
+		<h5>Dados de Contato</h5>
+		Telefone: <input type="text" size="12" onkeyup="masc_telefone(this)">&nbsp&nbsp
+		Celular: <input type="text" size="12" onkeyup="masc_celular(this)"> &nbsp&nbsp
+		E-mail: <input type="text" size="27"><br><br>
+		
+		<input type="submit" value="Salvar"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="reset" value="Cancelar"> <br><br>
+	</div>
+	<div align="center" class="tabela">
+		<h3>FUNCIONÁRIOS CADASTRADOS</h3>
+		
+		<table border="1">
+		
+			<tr>
+				<th>Nome</th>
+				<th>Perfil de Acesso</th>
+				<th>Cidade</th>
+				<th>Celular</th>
+				<th>E-mail</th>
+			</tr>
+			
+			<tr>
+				<td>Victor da Silva Baptista</td>
+				<td>victor.baptista</td>
+				<td>Curitiba</td>
+				<td>(41) 98855-1146</td>
+				<td>victor.baptista@foursys.com.br</td>
+			</tr>
+			
+		</table>
+		
+	</div>
+
+</body>
+</html>

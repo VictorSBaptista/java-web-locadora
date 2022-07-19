@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+
+h1 {
+	float: left;
+	font-family: cursive;
+	margin: 0 70px;
+	padding: 300px 50px;
+	background: rgb( 5, 25, 56);
+	color: white;
+	border-radius: 12px;
+	text-shadow: 3px 3px 2px black;
+	opacity: 0.7;
+}
+
+#grupobotao {
+	float: center;
+}
+
+.botao {
+	top: 20px;
+	position: relative;
+	display:inline-block;
+	border: thick;
+	border-color: white;
+	border-style: hidden;
+	margin: 0;
+	background: rgb(21, 45, 84);
+	width: 150px;
+	height: 70px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+
+.botao:hover {
+	
+	background: rgb(77, 101, 141);
+	border-right-style: outset;
+	border-right-color: rgb(160, 160, 162);
+	border-left-style: outset;
+	border-left-color: rgb(160, 160, 162);
+	border-top-style: outset;
+	border-top-color: rgb(160, 160, 162);
+	border-bottom-style: outset;
+	border-bottom-color: rgb(160, 160, 162);
+	
+}
+
+.botaonovo {
+	bottom: 50px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	animation-name: boataonovoani;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes boataonovoani {
+	0% {top:-100px;}
+	100% {top:20px;}
+}
+
+.botaosair {
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	animation-name: boataosairani;
+	animation-duration: 6s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes boataosairani {
+	0% {top:-100px;}
+	50% {top: 80px;}
+	100% {top:20px;}
+}
+
+.dados {
+	float: center;
+	background-color: rgb(243, 231, 237);
+	margin-left: -10px;
+	border-bottom-right-radius:12px;
+	border-top-right-radius: 12px;
+}
+
+
+.tabela {
+	float: center;
+}
